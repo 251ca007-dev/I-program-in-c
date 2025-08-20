@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.print("its raining (true/false)");
+        boolean umbrella=scan.nextBoolean();
+        String result=umbrella?"rain":"enjoy the sun light";
+        System.out.print(result);
+    }
+}   
