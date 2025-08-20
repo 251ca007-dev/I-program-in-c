@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int hour;
+    printf("enter the hour from 1 to 23\n");
+    scanf("%d",&hour);
+    if(hour>=0 &&hour<=23)
+    {
+        if(hour>=0 && hour<=12)
+        {
+            printf("its an A.M");
+        }
+        else
+        {
+            printf("its an P.M");
+        }
+    }
+    else 
+    {
+        printf("invalid hour entered");
+    }
+    return 0;
+}
