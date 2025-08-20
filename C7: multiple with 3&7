@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int num;
+    scanf("%d",&num);
+    if(num%3==0 && num%7==0)
+    {
+        printf("the number is divisible in 3and7");
+    }
+    else{
+        printf("the number is not divisible in 3and 7");
+    }
+    return 0;
+}
