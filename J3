@@ -1,0 +1,9 @@
+class Main
+{
+    public static void main (String args[])
+    {
+        boolean rain=true;
+        String result=rain?"bring umbrella":"enjoy the sun light";
+        System.out.print(result);
+    }
+}
