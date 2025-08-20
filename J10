@@ -1,0 +1,11 @@
+class Main{
+    public static void main(String args[])
+    {
+        int con1=47;
+        float cin2=67f;
+        String cin3="devika";
+        System.out.println(con1);
+        System.out.println(cin2);
+        System.out.println(cin3);
+    }
+}
