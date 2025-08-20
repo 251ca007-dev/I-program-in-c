@@ -1,0 +1,8 @@
+class Main
+{
+    public static void main(String args[])
+    {
+        String result=true?"yes":"no";
+        System.out.print(result);
+    }
+}
