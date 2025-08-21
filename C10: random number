@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main() {
+    int i, randomnumber;
+    srand(time(NULL));
+    printf("random numbers from 1 to 100");
+    for(int i=1;i<=10;i++)
+    {
+        int randomnumber=rand()%100+1;
+        printf("%d\n",randomnumber);
+    }
+    
+    return 0;
+}
