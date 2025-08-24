@@ -1,0 +1,26 @@
+public class mobile {
+    void iPhone()
+    {
+        System.out.println("amazing");
+    }
+    void samsung()
+    {
+        System.out.println("long life");
+    }
+    void realme()
+    {
+        System.out.println("good");
+    }
+    void redmi()
+    {
+        System.out.println("superb ");
+    }
+    public static void main (String args[])
+    {
+        mobile feedback=new mobile();
+        feedback.iPhone();
+        feedback.samsung();
+        feedback.realme();
+        feedback.redmi();
+    }
+}
