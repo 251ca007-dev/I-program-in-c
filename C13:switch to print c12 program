@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b;
+    char op;
+    printf("enter a value of a:");
+    scanf("%d",&a);
+    printf("enter a value of b:");
+    scanf("%d",&b);
+    printf("enter a operator:");
+    scanf("\n%c",&op);
+    switch(op)
+    {
+        case '+':
+        printf("sum=%d",a+b);
+        break;
+        
+        case '-':
+        printf("diff=%d",a-b);
+        break;
+        
+        case '*':
+        printf("multiple=%d",a*b);
+        break;
+        
+        case '/':
+        printf("division=%d",a/b);
+        break;
+        
+        default:
+        printf("invalid operator ");
+    }
+    getch();
+    
+}
