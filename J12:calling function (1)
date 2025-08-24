@@ -1,0 +1,16 @@
+public class demo{
+    void greetings()
+    {
+        System.out.println("vanakkam");
+    }
+    void dummy()
+    {
+        System.out.println("I am gummy");
+    }
+    public static void main(String args[])
+    {
+        demo obj1=new demo();
+        obj1.greetings();
+        obj1.dummy();
+    }
+}
