@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+    int num=12, result;
+    result=num>>2;
+    printf("the orginal number=%d\n",num);
+    printf("the result will be %d", result);
+    return 0;
+}
