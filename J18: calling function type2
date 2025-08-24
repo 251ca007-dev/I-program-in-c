@@ -1,0 +1,25 @@
+public class mobile {
+    static void iPhone()
+    {
+        System.out.println("amazing");
+    }
+    static void samsung()
+    {
+        System.out.println("long life");
+    }
+    static void realme()
+    {
+        System.out.println("good");
+    }
+    static void redmi()
+    {
+        System.out.println("superb ");
+    }
+    public static void main (String args[])
+    {
+        iPhone();
+        samsung();
+        realme();
+        redmi();
+    }
+}
