@@ -1,0 +1,17 @@
+class Main{
+    public static void main(String []args)
+    {
+        Scanner scan=new Scanner(System.in);
+        int n=scan.nextInt();
+        for(int i=1;i<=10;i++)
+        {
+            System.out.print("\nmultiple table :");
+            System.out.print(n);
+            System.out.print("X");
+            System.out.print(i);
+            System.out.print("=");
+            System.out.print(n*i);
+            
+        }
+    }    
+}
