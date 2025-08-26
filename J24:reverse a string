@@ -1,0 +1,14 @@
+class Main{
+    public static void main(String []args)
+    {
+        String str="abc";
+        String reversestr="";
+        char ch;
+        for(int i=0;i<str.length();i++)
+        {
+            ch=str.charAt(i);
+            reversestr=ch+reversestr;
+        }
+        System.out.println("the reverse string is:"+reversestr);
+    }
+}
