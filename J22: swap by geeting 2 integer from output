@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int temp;
+        System.out.println("before swapping:");
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        temp=a;
+        a=b;
+        b=temp;
+        System.out.println("After Swapping:");
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
