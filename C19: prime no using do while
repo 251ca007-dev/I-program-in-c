@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i=1,c=0,num;
+    printf("enter the number:");
+    scanf("%d",&num);
+    do
+    {
+        if(num%i==0)
+        { 
+            c++;
+        }
+        i++;
+    }while(i<=num);
+    if(c==2)
+    {
+        printf("prime");
+    }
+    else
+    {
+        printf("its not prime");
+    }
+    getch();
+}
