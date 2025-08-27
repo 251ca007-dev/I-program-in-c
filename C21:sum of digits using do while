@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int n,sum=0;
+    printf("sum of digits \n");
+    scanf("%d",&n);
+    do
+    {
+        sum=sum+(n%10);
+        n=n/10;
+    }while(n>0);
+    printf("sum of digits %d",sum);
+    getch();
+
+}
