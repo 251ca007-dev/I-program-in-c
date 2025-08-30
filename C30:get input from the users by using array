@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String []args)
+    {
+        Scanner scan=new Scanner(System.in);
+        int n=scan.nextInt();
+        int []marks=new int[n];
+        for(int i=0;i<n;i++)
+        {
+            marks[i]=scan.nextInt();
+        }
+        for(int i=0;i<n;i++)
+        {
+            System.out.print(marks[i]);
+        }
+        scan.close();
+    }
+}
