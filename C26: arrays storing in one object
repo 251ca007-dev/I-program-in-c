@@ -1,0 +1,10 @@
+class Main{
+    public static void main(String[]args)
+    {
+        String [] playlist=new String[3];
+        playlist[1]="song1";
+        System.out.println(playlist[1]);
+        playlist[2]="song2";
+        System.out.println(playlist[2]);
+    }
+}
