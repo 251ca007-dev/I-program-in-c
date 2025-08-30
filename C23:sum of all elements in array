@@ -1,0 +1,12 @@
+class Arraysum{
+    public static void main (String args[])
+    {
+        int []numbers={10,20,30,70,80};
+        int sum=0;
+        for(int number:numbers)
+        {
+            sum=sum+number;
+        }
+        System.out.print("the sum of all elements in array:"+sum);
+    }
+}
