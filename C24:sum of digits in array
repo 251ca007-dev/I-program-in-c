@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int arr[]={10,58,79,56,80};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    int sum=0;
+    for(int i=0;i<=n;i++)
+    {
+        sum+=arr[i];
+    }
+    printf("the sum of elements in array:%d",sum);
+    return 0;
+}
+
