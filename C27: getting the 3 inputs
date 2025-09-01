@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int rno[67],ph[56];
+    char name[67];
+    for(int i=0;i<=43;i++)
+    {
+        printf("enter a roll no:");
+        scanf("%d",&rno[i]);
+        printf("enter a Phone number🩵:");
+        scanf("%d",&ph[i]);
+        printf("enter the name💕:");
+        scanf("%s",&name[i]);
+    }
+    return 0;
+}
