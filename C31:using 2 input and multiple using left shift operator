@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int num,result,sult,dum;
+    scanf("%d",&num);
+    result=num<<2;
+    sult=num<<5;
+    dum=result*sult;
+    printf("%d",result);
+    printf("%d",sult);
+    printf("%d",dum);
+    return 0;
+}
+    
