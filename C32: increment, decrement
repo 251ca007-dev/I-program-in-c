@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int i=1,j=4,k=2,n=7,l,m,o,p;
+    m=++i;
+    l=j++;
+    p=--k;
+    o=n--;
+    printf("%d %d %d %d",l,m,p,o);
+    return 0;
+}
+    
