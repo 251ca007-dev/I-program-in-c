@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdbool.h> 
+
+int main() {
+    bool val1, val2;
+    int input1, input2;
+
+    printf("Enter the first boolean value (0 for false, 1 for true): ");
+    scanf("%d", &input1);
+    val1 = (input1 != 0); 
+
+    printf("Enter the second boolean value (0 for false, 1 for true): ");
+    scanf("%d", &input2);
+    val2 = (input2 != 0); 
+
+    printf("\n--- Logical Operations ---\n");
+
+  
+    printf("AND: %s\n", (val1 && val2) ? "true" : "false");
+
+    
+    printf("OR: %s\n", (val1 || val2) ? "true" : "false");
+
+  
+    printf("NOT (first value): %s\n", (!val1) ? "true" : "false");
+
+    
+    printf("NOT (second value): %s\n", (!val2) ? "true" : "false");
+
+    return 0;
+}
