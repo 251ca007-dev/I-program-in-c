@@ -1,0 +1,20 @@
+
+#include<stdio.h>
+int reverse(int r)
+{
+    int i;
+    for(int i=r;i>=0;i--)
+    {
+        printf("%d\n",i);
+    }
+    return (i);
+
+}
+int main()
+{
+    int s;
+    printf("enter the value:");
+    scanf("%d",&s);
+    reverse(s);
+    return 0;
+}
