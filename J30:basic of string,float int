@@ -1,0 +1,11 @@
+class Main{
+    public static void main(String args[])
+    {
+        int con=67;
+        String devika="r";
+        String cin2=devika;
+        System.out.println(con);
+        System.out.println(cin2);
+        
+    }
+}
