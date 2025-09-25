@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int x[10][10];
+    for(int i=2;i>0;i--)
+    {
+        for(int j=2;j>0;j--)
+        {
+            printf("enter the data[%d] [%d]:",i,j);
+            scanf("%d",&x[i][j]);
+        }
+    }
+    for(int i=2;i>0;i--)
+    {
+        for(int j=2;j>0;j--)
+        {
+            printf("%d\t",x[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
