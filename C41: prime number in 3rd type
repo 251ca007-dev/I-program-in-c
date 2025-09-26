@@ -1,0 +1,29 @@
+#include<stdio.h>
+int prime(int s)
+{
+    int c=0,n=1;
+    do
+    {
+        if(s%n==0)
+        {
+            c++;
+        }
+        n++;
+    }while(n<=s);
+    if(c==2)
+    {
+        printf("it's prime ");
+    }
+    else
+    {
+        printf("it's not prime");
+    }
+}
+int main()
+{
+    int num;
+    printf("enter a value :");
+    scanf("%d",&num);
+    prime(num);
+    return 0;
+}
