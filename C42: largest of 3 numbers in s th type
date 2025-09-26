@@ -1,0 +1,27 @@
+#include<stdio.h>
+int largest (int m)
+{
+    int a[m], largest;
+    for(int i=0;i<m;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    largest=a[0];
+    for(int i=0;i<m;i++)
+    {
+        if(largest<a[i])
+        {
+            largest=a[i];
+        }
+    }
+    printf("%d", largest);
+    return (largest);
+}
+int main()
+{
+    int n;
+    printf("enter the number:");
+    scanf("%d",&n);
+    largest(n);
+    return 0;
+}
